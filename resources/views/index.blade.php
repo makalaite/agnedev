@@ -297,11 +297,24 @@
                                     <i class="fa fa-plus fa-3x"></i>
                                 </div>
                             </div>
-                            <img src="img/portfolio/06-thumbnail.jpg" class="img-fluid" alt="">
+                            <img src="img/portfolio/calculator.PNG" class="img-fluid" alt="">
                         </a>
                         <div class="portfolio-caption">
-                            <h4>Window</h4>
-                            <p class="text-muted">Photography</p>
+                            <h4>Calculator</h4>
+                            <p class="text-muted">Using JavaScript</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 portfolio-item">
+                        <a href="https://github.com/IOT101CodeAcademyTeam/NoDragInLogisticsCargo">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content">
+                                </div>
+                            </div>
+                            <img src="img/portfolio/hackathon.PNG" class="img-fluid" alt="">
+                        </a>
+                        <div class="portfolio-caption">
+                            <h4>No drag in logistics</h4>
+                            <p class="text-muted">Hackathon team repository for cargo tracking project, device was given by Telia</p>
                         </div>
                     </div>
                 </div>
@@ -328,7 +341,7 @@
                                     <!-- Project Details Go Here -->
                                     <h2>Discover virtual reality</h2>
                                     <p class="item-intro text-muted">Database for CMS project.</p>
-                                    <img class="img-fluid d-block mx-auto" src="img/portfolio/atraskVrDBL.PNG" alt="">
+                                    <img class="img-responsive" src="img/portfolio/atraskVrDB.PNG" alt="">
                                     <p>Adding foreign key relationships using EER diagram, one-to-many connections.
                                         Tables created for usage of web pages with categories and translations of them,
                                         language codes, users roles and permissions, clients orders and reservations for
@@ -480,14 +493,15 @@
                                     <!-- Project Details Go Here -->
                                     <h2>Fast typing</h2>
                                     <p class="item-intro text-muted">practice with JavaScript</p>
-                                    <a href='{!! url('/game') !!}'>About</a>
-                                    <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur
-                                        adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos
-                                        deserunt
-                                        repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores
-                                        repudiandae,
-                                        nostrum, reiciendis facere nemo!</p>
+
+                                    <p>
+                                        Every view has logic for every state. One state is be SHOW other - HIDE.
+                                        Checks the value of input for setting level. Adds one life every 20 scores.
+                                        Randomly generates golden letters which gives +5 points. Counts your average speed.
+                                    </p>
                                     <ul class="list-inline">
+                                        <li><a href='{!! url('/game') !!}'>Try to play :)</a></li>
+                                        <li><a href="https://github.com/makalaite/game.dev/blob/master/public/js/gameLogic.js">Or visit project</a></li>
                                         </ul>
                                     <button type="button" class="btn btn-primary" data-dismiss="modal"><i
                                                 class="fa fa-times"></i> Close Project
@@ -515,19 +529,13 @@
                             <div class="col-lg-8 offset-lg-2">
                                 <div class="modal-body">
                                     <!-- Project Details Go Here -->
-                                    <h2>Project Name</h2>
-                                    <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                    <img class="img-fluid d-block mx-auto" src="img/portfolio/06-full.jpg" alt="">
-                                    <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur
-                                        adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos
-                                        deserunt
-                                        repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores
-                                        repudiandae,
-                                        nostrum, reiciendis facere nemo!</p>
+                                    <h2>Calculator</h2>
+                                    <p class="item-intro text-muted">Made with JavaScript</p>
+                                    <img class="img-fluid d-block mx-auto" src="img/portfolio/calc.PNG" alt="">
+                                    <p>JavaScript practice using switch statement</p>
                                     <ul class="list-inline">
-                                        <li>Date: January 2017</li>
-                                        <li>Client: Window</li>
-                                        <li>Category: Photography</li>
+                                        <li><a href='{!! url('/calculator') !!}'>Try it</a></li>
+                                        <li><a href="https://github.com/makalaite/calculator/blob/master/js/main.js">Or visit project</a></li>
                                     </ul>
                                     <button type="button" class="btn btn-primary" data-dismiss="modal"><i
                                                 class="fa fa-times"></i> Close Project
@@ -538,6 +546,8 @@
                     </div>
                 </div>
             </div>
+
+
 
         <!-- skills -->
         <section id="skills" class="bg-faded">
