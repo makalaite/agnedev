@@ -42,3 +42,5 @@ $(document).ready(function () {
         $('h1').css('color', '#1d1e1f')
     }, 3000)
 });
+
+//script for scroll reveal

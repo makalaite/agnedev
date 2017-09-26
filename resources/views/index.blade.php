@@ -41,7 +41,7 @@
             }
         }
     </style>
-
+    <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
 </head>
 
 <body id="page-top">
@@ -216,7 +216,7 @@
                 <div class="row">
                     <div class="col-lg-12 text-center">
                         <h2 class="section-heading">Portfolio</h2>
-                        <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                        <h3 class="section-subheading text-muted"></h3>
                     </div>
                 </div>
                 <div class="row">
@@ -230,7 +230,7 @@
                             <img src="img/portfolio/atraskVrDB.PNG" class="img-fluid" alt="">
                         </a>
                         <div class="portfolio-caption">
-                            <h4>"Discover VR"</h4>
+                            <h4>Discover VR</h4>
                             <p class="text-muted">MySQL Workbench database</p>
                         </div>
                     </div>
@@ -241,11 +241,11 @@
                                     <i class="fa fa-plus fa-3x"></i>
                                 </div>
                             </div>
-                            <img src="img/portfolio/02-thumbnail.jpg" class="img-fluid" alt="">
+                            <img src="img/portfolio/personalVR.PNG" class="img-fluid" alt="">
                         </a>
                         <div class="portfolio-caption">
-                            <h4>Explore</h4>
-                            <p class="text-muted">Graphic Design</p>
+                            <h4>Discover VR</h4>
+                            <p class="text-muted">Php Laravel CMS project</p>
                         </div>
                     </div>
                     <div class="col-md-4 col-sm-6 portfolio-item">
@@ -255,11 +255,11 @@
                                     <i class="fa fa-plus fa-3x"></i>
                                 </div>
                             </div>
-                            <img src="img/portfolio/03-thumbnail.jpg" class="img-fluid" alt="">
+                            <img src="img/portfolio/angular.PNG" class="img-fluid" alt="">
                         </a>
                         <div class="portfolio-caption">
-                            <h4>Finish</h4>
-                            <p class="text-muted">Identity</p>
+                            <h4>Medical cms</h4>
+                            <p class="text-muted">Using Angular TypeScript</p>
                         </div>
                     </div>
                     <div class="col-md-4 col-sm-6 portfolio-item">
@@ -273,7 +273,8 @@
                         </a>
                         <div class="portfolio-caption">
                             <h4>Find Flights</h4>
-                            <p class="text-muted">Php Laravel project for searching flights using Faker Factory library</p>
+                            <p class="text-muted">Php Laravel project for searching flights using Faker Factory
+                                library</p>
                         </div>
                     </div>
                     <div class="col-md-4 col-sm-6 portfolio-item">
@@ -297,7 +298,7 @@
                                     <i class="fa fa-plus fa-3x"></i>
                                 </div>
                             </div>
-                            <img src="img/portfolio/calculator.PNG" class="img-fluid" alt="">
+                            <img src="img/portfolio/calculator2.PNG" class="img-fluid" alt="">
                         </a>
                         <div class="portfolio-caption">
                             <h4>Calculator</h4>
@@ -314,7 +315,8 @@
                         </a>
                         <div class="portfolio-caption">
                             <h4>No drag in logistics</h4>
-                            <p class="text-muted">Hackathon team repository for cargo tracking project, device was given by Telia</p>
+                            <p class="text-muted">Hackathon team repository for cargo tracking project, device was given
+                                by Telia</p>
                         </div>
                     </div>
                 </div>
@@ -374,19 +376,18 @@
                             <div class="col-lg-8 offset-lg-2">
                                 <div class="modal-body">
                                     <!-- Project Details Go Here -->
-                                    <h2>Project Name</h2>
-                                    <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                    <img class="img-fluid d-block mx-auto" src="img/portfolio/02-full.jpg" alt="">
-                                    <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur
-                                        adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos
-                                        deserunt
-                                        repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores
-                                        repudiandae,
-                                        nostrum, reiciendis facere nemo!</p>
+                                    <h2>Discover virtual reality</h2>
+                                    <p class="item-intro text-muted">CMS for virtual reality rooms website</p>
+                                    <img class="img-fluid d-block mx-auto" src="img/portfolio/personalVR.PNG" alt="">
+                                    <p>First cms project using laravel. Learned how to make migrations from database.
+                                        How
+                                        to use seeds, describe controllers, request data from db or post data to db.
+                                        Using one main blade
+                                        for different services. Learning routing, middleware, validation, usage of
+                                        helpers,
+                                        making own artisan commands and describing db tables relationships.</p>
                                     <ul class="list-inline">
-                                        <li>Date: January 2017</li>
-                                        <li>Client: Explore</li>
-                                        <li>Category: Graphic Design</li>
+                                        <a href="https://github.com/makalaite/personal_vr.dev">Visit project</a>
                                     </ul>
                                     <button type="button" class="btn btn-primary" data-dismiss="modal"><i
                                                 class="fa fa-times"></i> Close Project
@@ -414,19 +415,18 @@
                             <div class="col-lg-8 offset-lg-2">
                                 <div class="modal-body">
                                     <!-- Project Details Go Here -->
-                                    <h2>Project Name</h2>
-                                    <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                    <img class="img-fluid d-block mx-auto" src="img/portfolio/03-full.jpg" alt="">
-                                    <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur
-                                        adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos
-                                        deserunt
-                                        repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores
-                                        repudiandae,
-                                        nostrum, reiciendis facere nemo!</p>
+                                    <h2>Medical CMS</h2>
+                                    <p class="item-intro text-muted">Current project with angular cli</p>
+                                    <img class="img-fluid d-block mx-auto" src="img/portfolio/angular.PNG" alt="">
+                                    <p>
+                                        Project idea is to create personal space for doctors to share, post and comment
+                                        interests about work related subjects. Also check their work schedules and
+                                        upcoming patients. Patients can also register and book appointments, read
+                                        medical blog. The back end of the project is created with laravel.
+
+                                    </p>
                                     <ul class="list-inline">
-                                        <li>Date: January 2017</li>
-                                        <li>Client: Finish</li>
-                                        <li>Category: Identity</li>
+                                        <a href="https://github.com/makalaite/medicalFrontend">Visit project</a>
                                     </ul>
                                     <button type="button" class="btn btn-primary" data-dismiss="modal"><i
                                                 class="fa fa-times"></i> Close Project
@@ -458,8 +458,10 @@
                                     <p class="item-intro text-muted">Php Laravel project for searching flights</p>
                                     <img class="img-fluid d-block mx-auto" src="img/portfolio/flights.PNG" alt="">
                                     <p> Project idea was to make a search system which helps to find flights
-                                    from different countries choosing various airlines. Displaying origin place, destination,
-                                    departure and arrival. Data was created using Faker library. Fake data generates by using
+                                        from different countries choosing various airlines. Displaying origin place,
+                                        destination,
+                                        departure and arrival. Data was created using Faker library. Fake data generates
+                                        by using
                                         created artisan commands. Authentication used.
                                     </p>
                                     <ul class="list-inline">
@@ -497,12 +499,15 @@
                                     <p>
                                         Every view has logic for every state. One state is be SHOW other - HIDE.
                                         Checks the value of input for setting level. Adds one life every 20 scores.
-                                        Randomly generates golden letters which gives +5 points. Counts your average speed.
+                                        Randomly generates golden letters which gives +5 points. Counts your average
+                                        speed.
                                     </p>
                                     <ul class="list-inline">
                                         <li><a href='{!! url('/game') !!}'>Try to play :)</a></li>
-                                        <li><a href="https://github.com/makalaite/game.dev/blob/master/public/js/gameLogic.js">Or visit project</a></li>
-                                        </ul>
+                                        <li>
+                                            <a href="https://github.com/makalaite/game.dev/blob/master/public/js/gameLogic.js">Or
+                                                visit project</a></li>
+                                    </ul>
                                     <button type="button" class="btn btn-primary" data-dismiss="modal"><i
                                                 class="fa fa-times"></i> Close Project
                                     </button>
@@ -535,7 +540,8 @@
                                     <p>JavaScript practice using switch statement</p>
                                     <ul class="list-inline">
                                         <li><a href='{!! url('/calculator') !!}'>Try it</a></li>
-                                        <li><a href="https://github.com/makalaite/calculator/blob/master/js/main.js">Or visit project</a></li>
+                                        <li><a href="https://github.com/makalaite/calculator/blob/master/js/main.js">Or
+                                                visit project</a></li>
                                     </ul>
                                     <button type="button" class="btn btn-primary" data-dismiss="modal"><i
                                                 class="fa fa-times"></i> Close Project
@@ -546,209 +552,201 @@
                     </div>
                 </div>
             </div>
-
-
-
-        <!-- skills -->
-        <section id="skills" class="bg-faded">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12 text-center">
-                        <h2 class="section-heading">Programming skills</h2>
-                        <h3 class="section-subheading text-muted">which I gain </h3>
-                    </div>
-
-                    <div class="skills">
-                        <div class="container">
-
-                            <div id="block1">
-                                <div class="col-md-6 col-sm-6 col-xs-6">
-                                    <i class="devicon-php-plain">PHP</i>
-                                </div>
-
-                                <div class="col-md-6 col-sm-6 col-xs-6">
-                                    <i class="devicon-javascript-plain">JavaScript</i>
-                                </div>
-
-                                <div class="col-md-6 col-sm-6 col-xs-6">
-                                    <i class="devicon-typescript-plain">TypeScript</i>
-                                </div>
-
-                                <div class="col-md-6 col-sm-6 col-xs-6">
-                                    <i class="devicon-css3-plain">CSS</i>
-                                </div>
-
-                                <div class="col-md-6 col-sm-6 col-xs-6">
-                                    <i class="devicon-bootstrap-plain">Bootstrap</i>
-                                </div>
-
-                                <div class="col-md-6 col-sm-6 col-xs-6">
-                                    <i class="devicon-laravel-plain">Laravel</i>
-                                </div>
-
-                                <div class="col-md-6 col-sm-6 col-xs-6">
-                                    <i class="devicon-angularjs-plain">Angular</i>
-                                </div>
-
-                                <div class="col-md-6 col-sm-6 col-xs-6">
-                                    <i class="devicon-mysql-plain">MySQL</i>
-                                </div>
-
-                            </div>
-
-                            <div id="block2">
-
-                                <div class="col-md-6 col-sm-6 col-xs-6">
-                                    <i class="devicon-linux-plain">Linux</i>
-                                </div>
-
-                                <div class="col-md-6 col-sm-6 col-xs-6">
-                                    <i class="devicon-ubuntu-plain">Ubuntu</i>
-                                </div>
-
-                                <div class="col-md-6 col-sm-6 col-xs-6">
-                                    <i class="devicon-git-plain">Git</i>
-                                </div>
-
-                                <div class="col-md-6 col-sm-6 col-xs-6">
-                                    <i class="devicon-phpstorm-plain">PhpStorm</i>
-                                </div>
-
-                                <div class="col-md-6 col-sm-6 col-xs-6">
-                                    <i class="devicon-trello-plain">Trello</i>
-                                </div>
-
-                                <div class="col-md-6 col-sm-6 col-xs-6">
-                                    <i class="devicon-wordpress-plain">WordPress</i>
-                                </div>
-
-                                <div class="col-md-6 col-sm-6 col-xs-6">
-                                    <i class="devicon-illustrator-plain">Illustrator</i>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-        </section>
-
-        <!-- Work experience -->
-        <section id="work">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12 text-center">
-                        <h2 class="section-heading">Work experience</h2>
-                        <h3 class="section-subheading text-muted">Places I used to work</h3>
-                    </div>
-                </div>
-                <div class="row text-center">
-                    <div class="col-md-4">
-                        <a href="http://www.kinopasaka.lt/lt" target="_blank">
-                            <img class="img-responsive" src="img/logos/Pasaka.jpg" alt=""></a>
-                        <h4 class="service-heading">Administrator</h4>
-                        <p class="text-muted">Work with content management system to supervise kinopasaka.lt
-                            website.</p>
-                    </div>
-                    <div class="col-md-4">
-                        <a href="https://career.hm.com/content/hmcareer/en_se/workingathm/what-can-you-do-here/logistics.html"
-                           target="_blank">
-                            <img class="img-responsive" src="img/logos/hnm2.png" alt=""></a>
-                        <h4 class="service-heading">Administrator's assistant</h4>
-                        <p class="text-muted">Managing of delivery control system.</p>
-                    </div>
-                    <div class="col-md-4">
-                        <a href="http://www.matulaiciosc.lt/" target="_blank">
-                            <img class="img-responsive" src="img/logos/matulaitis2.png" alt=""></a>
-                        <h4 class="service-heading">Social worker</h4>
-                        <p class="text-muted">Document processing for non governmental projects and work with youth
-                            groups.</p>
-                    </div>
-                    <div class="col-md-4">
-                        <a href="http://www.coffeehill.lt/" target="_blank">
-                            <img class="img-responsive" src="img/logos/coffe.png" alt=""></a>
-                        <h4 class="service-heading">Chief barista</h4>
-                        <p class="text-muted">Maintenance of two cafeterias.</p>
-                    </div>
-                    <div class="col-md-4">
-                        <a href="http://www.aukstynkojom.lt/" target="_blank">
-                            <img class="img-responsive" src="img/logos/logo.png" alt=""></a>
-                        <h4 class="service-heading">Preschool teacher</h4>
-                        <p class="text-muted">Development of monthly projects in kindergarten by promoting children's
-                            social
-                            skills.</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Contact -->
-        <section id="contact">
-            <div class="banner">
-                <div class="container">
-
-                    <div class="row">
-                        <div class="col-lg-6 ">
-                            <h2>Let's get in touch:</h2>
-                        </div>
-                        <div class="col-lg-6">
-
-                            <ul class="list-inline banner-social-buttons">
-                                <li>
-                                    <a href="https://www.linkedin.com/in/agne-petrylaite-33614510b/" target="_blank"
-                                       class="btn btn-default btn-lg"><i class="fa fa-linkedin fa-fw"></i> <span
-                                                class="network-name">LinkedIn</span></a>
-                                </li>
-                                <li>
-                                    <a href="https://github.com/makalaite" target="_blank"
-                                       class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span
-                                                class="network-name">GitHub</span></a>
-                                </li>
-                                <li>
-                                    <a href="mailto:agnepetrylaite@gmail.com" target="_blank"
-                                       class="btn btn-default btn-lg"><i
-                                                class="fa fa-envelope fa-fw"></i> <span
-                                                class="network-name">agnepetrylaite@gmail.com</span></a>
-                                </li>
-                                <li>
-                                    <a href="cv/AgnePetrylaiteCV.pdf"
-                                       target="_blank" class="btn btn-default btn-lg"><i
-                                                class="fa fa-file-pdf-o fa-fw"></i> <span
-                                                class="network-name">Download CV</span></a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-
-                </div>
-        </section>
-
-        <!-- Footer -->
-        <footer>
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-4">
-                        <span class="copyright">Copyright &copy; Agne 2017</span>
-                    </div>
-                    <div class="col-md-4">
-                        <ul class="list-inline social-buttons">
-                            <li class="list-inline-item"><a href="#"><i class="fa fa-twitter"></i></a>
-                            </li>
-                            <li class="list-inline-item"><a href="#"><i class="fa fa-facebook"></i></a>
-                            </li>
-                            <li class="list-inline-item"><a href="#"><i class="fa fa-linkedin"></i></a>
-                            </li>
-                        </ul>
-                    </div>
-
-                </div>
-            </div>
-        </footer>
-
-
         </div>
 
-    </div>
+            <!-- skills -->
+            <section id="skills" class="bg-faded">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12 text-center">
+                            <h2 class="section-heading">Programming skills</h2>
+                        </div>
 
+                        <div class="skills">
+                            <div class="container">
+
+                                <div id="block1">
+                                    <div class="col-md-6 col-sm-6 col-xs-6">
+                                        <i class="devicon-php-plain">PHP</i>
+                                    </div>
+
+                                    <div class="col-md-6 col-sm-6 col-xs-6">
+                                        <i class="devicon-javascript-plain">JavaScript</i>
+                                    </div>
+
+                                    <div class="col-md-6 col-sm-6 col-xs-6">
+                                        <i class="devicon-typescript-plain">TypeScript</i>
+                                    </div>
+
+                                    <div class="col-md-6 col-sm-6 col-xs-6">
+                                        <i class="devicon-css3-plain">CSS</i>
+                                    </div>
+
+                                    <div class="col-md-6 col-sm-6 col-xs-6">
+                                        <i class="devicon-bootstrap-plain">Bootstrap</i>
+                                    </div>
+
+                                    <div class="col-md-6 col-sm-6 col-xs-6">
+                                        <i class="devicon-laravel-plain">Laravel</i>
+                                    </div>
+
+                                    <div class="col-md-6 col-sm-6 col-xs-6">
+                                        <i class="devicon-angularjs-plain">Angular</i>
+                                    </div>
+
+                                    <div class="col-md-6 col-sm-6 col-xs-6">
+                                        <i class="devicon-mysql-plain">MySQL</i>
+                                    </div>
+
+                                </div>
+
+                                <div id="block2">
+
+                                    <div class="col-md-6 col-sm-6 col-xs-6">
+                                        <i class="devicon-linux-plain">Linux</i>
+                                    </div>
+
+                                    <div class="col-md-6 col-sm-6 col-xs-6">
+                                        <i class="devicon-ubuntu-plain">Ubuntu</i>
+                                    </div>
+
+                                    <div class="col-md-6 col-sm-6 col-xs-6">
+                                        <i class="devicon-git-plain">Git</i>
+                                    </div>
+
+                                    <div class="col-md-6 col-sm-6 col-xs-6">
+                                        <i class="devicon-phpstorm-plain">PhpStorm</i>
+                                    </div>
+
+                                    <div class="col-md-6 col-sm-6 col-xs-6">
+                                        <i class="devicon-trello-plain">Trello</i>
+                                    </div>
+
+                                    <div class="col-md-6 col-sm-6 col-xs-6">
+                                        <i class="devicon-wordpress-plain">WordPress</i>
+                                    </div>
+
+                                    <div class="col-md-6 col-sm-6 col-xs-6">
+                                        <i class="devicon-illustrator-plain">Illustrator</i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Work experience -->
+            <section id="work">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12 text-center">
+                            <h2 class="section-heading">Work experience</h2>
+                        </div>
+                    </div>
+                    <div class="row text-center">
+                        <div class="col-md-4">
+                            <a href="http://www.kinopasaka.lt/lt" target="_blank">
+                                <img class="img-responsive" src="img/logos/Pasaka.jpg" alt=""></a>
+                            <h4 class="service-heading">Administrator</h4>
+                            <p class="text-muted">Work with content management system to supervise kinopasaka.lt
+                                website.</p>
+                        </div>
+                        <div class="col-md-4">
+                            <a href="https://career.hm.com/content/hmcareer/en_se/workingathm/what-can-you-do-here/logistics.html"
+                               target="_blank">
+                                <img class="img-responsive" src="img/logos/hnm2.png" alt=""></a>
+                            <h4 class="service-heading">Administrator's assistant</h4>
+                            <p class="text-muted">Managing of delivery control system.</p>
+                        </div>
+                        <div class="col-md-4">
+                            <a href="http://www.matulaiciosc.lt/" target="_blank">
+                                <img class="img-responsive" src="img/logos/matulaitis2.png" alt=""></a>
+                            <h4 class="service-heading">Social worker</h4>
+                            <p class="text-muted">Document processing for non governmental projects and work with youth
+                                groups.</p>
+                        </div>
+                        <div class="col-md-4">
+                            <a href="http://www.coffeehill.lt/" target="_blank">
+                                <img class="img-responsive" src="img/logos/coffe.png" alt=""></a>
+                            <h4 class="service-heading">Chief barista</h4>
+                            <p class="text-muted">Maintenance of two cafeterias.</p>
+                        </div>
+                        <div class="col-md-4">
+                            <a href="http://www.aukstynkojom.lt/" target="_blank">
+                                <img class="img-responsive" src="img/logos/logo.png" alt=""></a>
+                            <h4 class="service-heading">Preschool teacher</h4>
+                            <p class="text-muted">Development of monthly projects in kindergarten by promoting
+                                children's
+                                social
+                                skills.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Contact -->
+            <section id="contact">
+                <div class="banner">
+                    <div class="container">
+
+                        <div class="row">
+                            <div class="col-lg-6 ">
+                                <h2 style="color: #fed136">Let's get in touch:</h2>
+                            </div>
+                            <div class="col-lg-6">
+
+                                <ul class="list-inline banner-social-buttons">
+                                    <li>
+                                        <a href="https://www.linkedin.com/in/agne-petrylaite-33614510b/" target="_blank"
+                                           class="btn btn-default btn-lg"><i class="fa fa-linkedin fa-fw"></i> <span
+                                                    class="network-name">LinkedIn</span></a>
+                                    </li>
+                                    <li>
+                                        <a href="https://github.com/makalaite" target="_blank"
+                                           class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span
+                                                    class="network-name">GitHub</span></a>
+                                    </li>
+                                    <li>
+                                        <a href="mailto:agnepetrylaite@gmail.com" target="_blank"
+                                           class="btn btn-default btn-lg"><i
+                                                    class="fa fa-envelope fa-fw"></i> <span
+                                                    class="network-name">agnepetrylaite@gmail.com</span></a>
+                                    </li>
+                                    <li>
+                                        <a href="cv/AgnePetrylaiteCV.pdf"
+                                           target="_blank" class="btn btn-default btn-lg"><i
+                                                    class="fa fa-file-pdf-o fa-fw"></i> <span
+                                                    class="network-name">Download CV</span></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+            <!-- Footer -->
+            <footer>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <span class="copyright">Copyright &copy; Agne 2017</span>
+                        </div>
+
+
+                    </div>
+                </div>
+            </footer>
+
+
+    </div>
 </div>
+
+
+
+
 
 <!-- Bootstrap core JavaScript -->
 <script src="{{asset('lib/jquery/jquery.min.js')}}"></script>
@@ -766,6 +764,7 @@
 <script src="{{asset('js/agency.min.js')}}"></script>
 <script src="{{asset('js/agency.js')}}"></script>
 
+<script src="{{asset('js/scroll.js')}}"></script>
 
 </body>
 
