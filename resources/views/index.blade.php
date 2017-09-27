@@ -230,8 +230,23 @@
                             <img src="img/portfolio/atraskVrDB.PNG" class="img-fluid" alt="">
                         </a>
                         <div class="portfolio-caption">
-                            <h4>Discover VR</h4>
-                            <p class="text-muted">MySQL Workbench database</p>
+                            <h4>Discover VR</h4><br/>
+                            <p class="text-muted">MySQL Workbench <br/> database</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 portfolio-item">
+                        <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content">
+                                    <i class="fa fa-plus fa-3x"></i>
+                                </div>
+                            </div>
+                            <img src="img/portfolio/flights.PNG" class="img-fluid" alt="">
+                        </a>
+                        <div class="portfolio-caption">
+                            <h4>Find Flights</h4><br/>
+                            <p class="text-muted">Php Laravel project for searching flights using Faker Factory
+                                library</p>
                         </div>
                     </div>
                     <div class="col-md-4 col-sm-6 portfolio-item">
@@ -262,21 +277,7 @@
                             <p class="text-muted">Using Angular TypeScript</p>
                         </div>
                     </div>
-                    <div class="col-md-4 col-sm-6 portfolio-item">
-                        <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
-                            <div class="portfolio-hover">
-                                <div class="portfolio-hover-content">
-                                    <i class="fa fa-plus fa-3x"></i>
-                                </div>
-                            </div>
-                            <img src="img/portfolio/flights.PNG" class="img-fluid" alt="">
-                        </a>
-                        <div class="portfolio-caption">
-                            <h4>Find Flights</h4>
-                            <p class="text-muted">Php Laravel project for searching flights using Faker Factory
-                                library</p>
-                        </div>
-                    </div>
+
                     <div class="col-md-4 col-sm-6 portfolio-item">
                         <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
                             <div class="portfolio-hover">
@@ -289,6 +290,20 @@
                         <div class="portfolio-caption">
                             <h4>Fast typing game</h4>
                             <p class="text-muted">Keyboard game for learning JavaScript</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 portfolio-item">
+                        <a href="https://github.com/IOT101CodeAcademyTeam/NoDragInLogisticsCargo">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content">
+                                </div>
+                            </div>
+                            <img src="img/portfolio/hackathon.PNG" class="img-fluid" alt="">
+                        </a>
+                        <div class="portfolio-caption">
+                            <h4>No drag in logistics</h4><br/>
+                            <p class="text-muted">Hackathon team repository for cargo tracking project, device was given
+                                by Telia</p>
                         </div>
                     </div>
                     <div class="col-md-4 col-sm-6 portfolio-item">
@@ -305,20 +320,7 @@
                             <p class="text-muted">Using JavaScript</p>
                         </div>
                     </div>
-                    <div class="col-md-4 col-sm-6 portfolio-item">
-                        <a href="https://github.com/IOT101CodeAcademyTeam/NoDragInLogisticsCargo">
-                            <div class="portfolio-hover">
-                                <div class="portfolio-hover-content">
-                                </div>
-                            </div>
-                            <img src="img/portfolio/hackathon.PNG" class="img-fluid" alt="">
-                        </a>
-                        <div class="portfolio-caption">
-                            <h4>No drag in logistics</h4>
-                            <p class="text-muted">Hackathon team repository for cargo tracking project, device was given
-                                by Telia</p>
-                        </div>
-                    </div>
+
                 </div>
             </div>
         </section>

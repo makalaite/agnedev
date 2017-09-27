@@ -998,3 +998,30 @@ div.modal-body img.img-responsive{
     padding: 100px 0;
     text-align: center;
 }
+
+
+@media (min-width: 700px) {
+    header .intro-text {
+        padding-top: 300px;
+        padding-bottom: 420px !important;
+    }
+}
+@media (min-width: 1280px){
+    header .intro-text {
+        padding-top: 300px;
+        padding-bottom: 450px !important;
+   }
+}
+
+@media (min-width: 1350px) {
+    header .intro-text {
+        padding-top: 300px;
+        padding-bottom: 500px !important;
+   }
+}
+@media (min-width: 1700px) {
+    header .intro-text {
+        padding-top: 300px;
+        padding-bottom: 540px !important;
+    }
+}
