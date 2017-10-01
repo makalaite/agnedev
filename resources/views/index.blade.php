@@ -596,16 +596,12 @@
                                         <i class="devicon-angularjs-plain">Angular</i>
                                     </div>
 
-                                    <div class="col-md-6 col-sm-6 col-xs-6">
-                                        <i class="devicon-mysql-plain">MySQL</i>
-                                    </div>
-
                                 </div>
 
                                 <div id="block2">
 
                                     <div class="col-md-6 col-sm-6 col-xs-6">
-                                        <i class="devicon-linux-plain">Linux</i>
+                                        <i class="devicon-mysql-plain">MySQL</i>
                                     </div>
 
                                     <div class="col-md-6 col-sm-6 col-xs-6">
